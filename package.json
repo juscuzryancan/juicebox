@@ -1,0 +1,26 @@
+{
+  "name": "juicebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "seed:dev": "nodemon ./db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpuzon01/juicebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpuzon01/juicebox/issues"
+  },
+  "homepage": "https://github.com/rpuzon01/juicebox#readme",
+  "dependencies": {
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
